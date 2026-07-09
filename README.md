@@ -12,7 +12,6 @@ Then open http://localhost:8000
 
 ## To do before going live
 
-- **Headshot**: replace the "KC" circle in the hero (`.avatar-placeholder` in `index.html` / `styles.css`) with a real photo. Drop the image in `assets/` (e.g. `assets/headshot.jpg`) and swap the placeholder `<div>` for an `<img>` tag.
 - **Resume PDF**: `assets/resume.pdf` is generated from `Kristopher_Casey_Resume_2026.html`. Regenerate it any time the resume content changes:
   ```
   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu --no-pdf-header-footer \

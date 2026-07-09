@@ -251,19 +251,13 @@ img { max-width: 100%; display: block; }
   justify-content: center;
 }
 
-.avatar-placeholder {
-  width: 220px;
-  height: 220px;
+.avatar-photo {
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
-  background: linear-gradient(160deg, var(--surface-2), var(--surface));
+  object-fit: cover;
   border: 1px solid var(--border-strong);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-mono);
-  font-size: 44px;
-  font-weight: 500;
-  color: var(--accent);
+  box-shadow: 0 0 0 6px var(--accent-dim);
 }
 
 /* SECTIONS */
@@ -664,7 +658,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-visual { order: -1; }
-  .avatar-placeholder { width: 140px; height: 140px; font-size: 30px; }
+  .avatar-photo { width: 160px; height: 160px; }
   .card-grid.three, .card-grid.two { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .experience-layout { grid-template-columns: 1fr; }
