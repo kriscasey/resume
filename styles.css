@@ -662,6 +662,7 @@ img { max-width: 100%; display: block; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .experience-layout { grid-template-columns: 1fr; }
   .nav-links { display: none; }
+  .nav-actions .btn-primary { display: none; }
   .nav-toggle { display: flex; }
 }
 
@@ -677,7 +678,12 @@ img { max-width: 100%; display: block; }
     flex-direction: column;
     padding: 16px 24px;
     gap: 16px;
+    z-index: 40;
   }
+}
+
+@media (max-width: 480px) {
+  .nav-actions .icon-link { display: none; }
 }
 
 @media (max-width: 560px) {
