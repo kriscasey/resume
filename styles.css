@@ -655,6 +655,12 @@ img { max-width: 100%; display: block; }
 }
 
 /* RESPONSIVE */
+@media (min-width: 861px) {
+  .hero-inner { grid-template-columns: 1.05fr 0.95fr; }
+  .avatar-photo { width: 420px; height: auto; aspect-ratio: 1 / 1; }
+  .brand-name { white-space: nowrap; }
+}
+
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-visual { order: -1; }
