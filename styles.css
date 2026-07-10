@@ -68,7 +68,7 @@ img { max-width: 100%; display: block; }
 .brand {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   font-weight: 600;
   font-size: 15px;
   flex-shrink: 0;
@@ -78,14 +78,13 @@ img { max-width: 100%; display: block; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background: var(--accent-dim);
   color: var(--accent);
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
 }
 
@@ -187,7 +186,7 @@ img { max-width: 100%; display: block; }
   margin: 0 auto;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: 1.3fr 0.7fr;
   gap: 48px;
   align-items: center;
 }
@@ -253,9 +252,8 @@ img { max-width: 100%; display: block; }
 }
 
 .avatar-photo {
-  width: 420px;
-  aspect-ratio: 1 / 1;
-  height: auto;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border-strong);
@@ -660,7 +658,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-visual { order: -1; }
-  .avatar-photo { width: 220px; }
+  .avatar-photo { width: 160px; height: 160px; }
   .card-grid.three, .card-grid.two { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .experience-layout { grid-template-columns: 1fr; }
