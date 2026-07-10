@@ -186,7 +186,7 @@ img { max-width: 100%; display: block; }
   margin: 0 auto;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-columns: 1.05fr 0.95fr;
   gap: 48px;
   align-items: center;
 }
@@ -252,8 +252,9 @@ img { max-width: 100%; display: block; }
 }
 
 .avatar-photo {
-  width: 320px;
-  height: 320px;
+  width: 420px;
+  aspect-ratio: 1 / 1;
+  height: auto;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border-strong);
@@ -658,7 +659,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-visual { order: -1; }
-  .avatar-photo { width: 190px; height: 190px; }
+  .avatar-photo { width: 220px; }
   .card-grid.three, .card-grid.two { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .experience-layout { grid-template-columns: 1fr; }
