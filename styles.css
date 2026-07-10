@@ -252,8 +252,8 @@ img { max-width: 100%; display: block; }
 }
 
 .avatar-photo {
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border-strong);
@@ -658,7 +658,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-visual { order: -1; }
-  .avatar-photo { width: 160px; height: 160px; }
+  .avatar-photo { width: 190px; height: 190px; }
   .card-grid.three, .card-grid.two { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: repeat(2, 1fr); }
   .experience-layout { grid-template-columns: 1fr; }
