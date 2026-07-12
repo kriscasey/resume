@@ -105,7 +105,7 @@ const EXPERIENCE = [
   {
     title: "Senior Manager, Frontend Development",
     company: "Verizon Consumer Group — Digital",
-    dates: "Dec 2023 – Jun 2025",
+    dates: "Dec 2023 – May 2025",
     bullets: [
       "Defined and owned the strategic roadmap for frontend development across Verizon's consumer web and email platforms.",
       "Led cross-functional delivery of major consumer product launches, including flagship device releases and plan restructuring.",
